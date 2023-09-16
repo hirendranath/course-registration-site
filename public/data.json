@@ -3,97 +3,80 @@
         "id": 1,
         "name": "Introduction to C Programming",
         "image": "./Asset/1.png",
-        "salary": 7584,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 15000,
-        "credit": "1"
+        "credit":1
     },
 
     {
         "id": 2,
         "name": "Introduction to Algorithms",
-        "role":"Story Writer",
         "image": "./Asset/2.png",
-        "salary": 11544,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 25000,
-        "credit": "2"
+        "credit": 2
     },
 
     {
         "id": 3,
         "name": "Introduction to C++ for DSA",
-        "role": "Music Director",
         "image": "./Asset/3.png",
-        "salary": 4579,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 10000,
-        "credit": "10"
+        "credit": 10
     },
 
     {
         "id": 4,
         "name": "Basic Data Structures",
-        "role":"Editor",
         "image": "./Asset/4.png",
-        "salary": 4575,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 35000,
-        "credit": "5"
+        "credit": 5
     },
 
     {
         "id": 5,
         "name": "Introduction to OOP Python",
-        "role":"Actor",
         "image": "./Asset/5.png",
-        "salary": 3568,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 19000,
-        "credit": "5"
+        "credit": 5
     },
 
     {
         "id": 6,
         "name": "Software Engineering",
-        "role":"Actor",
         "image": "./Asset/6.png",
-        "salary": 5678,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 23000,
-        "credit": "2"
+        "credit": 2
     },
 
     {
         "id": 7,
         "name": "AWS, Cloud Computing",
-        "role":"Actor",
         "image": "./Asset/7.png",
-        "salary": 8564,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 35000,
-        "credit": "5"
+        "credit": 5
     },
 
     {
         "id": 8,
         "name": "Database (MySQL)",
-        "role":"Actor",
         "image": "./Asset/8.png",
-        "salary": 4589,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 19000,
-        "credit": "5"
+        "credit": 5
     },
 
     {
         "id": 9,
         "name": "Problem-Solving Part",
-        "role":"Actor",
         "image": "./Asset/9.png",
-        "salary": 4586,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 23000,
-        "credit": "2"
+        "credit": 2
     }
 ]
