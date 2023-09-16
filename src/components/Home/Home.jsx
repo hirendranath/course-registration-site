@@ -7,7 +7,6 @@ const Home = () => {
     const [selectedCourse, setSelectedCourse] = useState([]);
     const [totalRemaining, setTotalRemaining] = useState(20);
     const [totalCredit, setTotalCredit] = useState(0);
-    const [totalPrice, setTotalPrice] = useState(0);
 
 
     useEffect(() => {
@@ -19,7 +18,6 @@ const Home = () => {
     const handleSelectorCourse = (course) => {
         const isExist = selectedCourse.find((item) => item.id == course.id);
         let credit = course.credit;
-        const NewPrice = totalPrice + course.price;
 
         if (isExist) {
             return Swal.fire({
@@ -44,7 +42,6 @@ const Home = () => {
                 setTotalCredit(credit);
                 setTotalRemaining(totalremaining);
                 setSelectedCourse([...selectedCourse, course]);
-                setTotalPrice(NewPrice);
             }
         }
     };
@@ -63,7 +60,7 @@ const Home = () => {
                                     <h4>{course.name}</h4>
                                     <p><small>{course.details}</small></p>
                                     <div className="info">
-                                        <p>Price : ${course.Price}</p>
+                                        <p>Price :${course.Price}</p>
                                         <p>Credit : {course.credit}</p>
                                     </div>
                                     <button className="course-select-btn" onClick={() => handleSelectorCourse(course)}>Select</button>
@@ -73,7 +70,7 @@ const Home = () => {
                     </div>
 
                     <div className="cart">
-                        <Cart selectedCard={selectedCourse} totalRemaining={totalRemaining} totalCredit={totalCredit} totalPrice={totalPrice}></Cart>
+                        <Cart selectedCard={selectedCourse} totalRemaining={totalRemaining} totalCredit={totalCredit}></Cart>
                     </div>
                     
                 </div>

@@ -1,17 +1,17 @@
 /* eslint-disable react/prop-types */
 import "./Cart.css"
 
-const Cart = ({ selectedCard, totalRemaining, totalCredit, totalPrice }) => {
+const Cart = ({ selectedCard, totalRemaining, totalCredit}) => {
     return (
         <div className="Cart-container">
-            <h4>Credit Hour Remaining : {totalRemaining}hr</h4>
+            <h4>Total Credit Hour Remaining : {totalRemaining}hr</h4>
             <hr />
-            <div className="course-name">
-                <h4 className="underline">Course Name :</h4>
+            <div>
+                <h4>Course Name :</h4>
                 <ol>
                     {
                         selectedCard.map((card) => (
-                            <li key={card.id}>{card.title}</li>
+                            <li key={card.id}>{card.name}</li>
                         ))
                     }
                 </ol>
@@ -19,9 +19,6 @@ const Cart = ({ selectedCard, totalRemaining, totalCredit, totalPrice }) => {
             <hr />
 
             <h4>Total Credit Hour : {totalCredit}</h4>
-            <hr />
-            <h4>Total Price : ${totalPrice}</h4>
-            <hr />
         </div>
     );
 };

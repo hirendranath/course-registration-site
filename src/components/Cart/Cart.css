@@ -1,14 +1,6 @@
 .Cart-container {
     background: #FFFFFF;
     color: black;
-    padding: 25px;
-    margin: 0;
-    border-radius: 8px;
-}
-
-.course-name li {
-    font-weight: bold;
-}
-.underline{
-    text-decoration: underline;
+    padding: 20px;
+    border-radius: 10px;
 }
