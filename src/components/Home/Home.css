@@ -21,6 +21,7 @@ body{
 }
 .card-main-container{
     display: flex;
+
 }
 .card-container{
     width: 800px;

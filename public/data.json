@@ -6,7 +6,7 @@
         "salary": 7584,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 15000,
-        "Credit": "1hr"
+        "credit": "1hr"
     },
 
     {
@@ -17,7 +17,7 @@
         "salary": 11544,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 25000,
-        "Credit": "2hr"
+        "credit": "2hr"
     },
 
     {
@@ -28,7 +28,7 @@
         "salary": 4579,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 10000,
-        "Credit": "10hr"
+        "credit": "10hr"
     },
 
     {
@@ -39,7 +39,7 @@
         "salary": 4575,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 35000,
-        "Credit": "5hr"
+        "credit": "5hr"
     },
 
     {
@@ -50,7 +50,7 @@
         "salary": 3568,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 19000,
-        "Credit": "5hr"
+        "credit": "5hr"
     },
 
     {
@@ -61,7 +61,7 @@
         "salary": 5678,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 23000,
-        "Credit": "2hr"
+        "credit": "2hr"
     },
 
     {
@@ -72,7 +72,7 @@
         "salary": 8564,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 35000,
-        "Credit": "5hr"
+        "credit": "5hr"
     },
 
     {
@@ -83,7 +83,7 @@
         "salary": 4589,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 19000,
-        "Credit": "5hr"
+        "credit": "5hr"
     },
 
     {
@@ -94,6 +94,6 @@
         "salary": 4586,
         "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
         "Price": 23000,
-        "Credit": "2hr"
+        "credit": "2hr"
     }
 ]
