@@ -1,112 +1,99 @@
 [
     {
         "id": 1,
-        "name": "Anthony Russo",
-        "age": 51,
-        "role":"Director",
-        "image": "./asset/Rectangle 2.png",
+        "name": "Introduction to C Programming",
+        "image": "./Asset/1.png",
         "salary": 7584,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 15000,
+        "Credit": "1hr"
     },
+
     {
         "id": 2,
-        "name": "Stan Lee",
-        "age": 95,
+        "name": "Introduction to Algorithms",
         "role":"Story Writer",
-        "image": "./asset/Rectangle 2-1.png",
+        "image": "./Asset/2.png",
         "salary": 11544,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 25000,
+        "Credit": "2hr"
     },
+
     {
         "id": 3,
-        "name": "Alan Silvestri",
-        "age": 71,
+        "name": "Introduction to C++ for DSA",
         "role": "Music Director",
-        "image": "./asset/Rectangle 2-2.png",
+        "image": "./Asset/3.png",
         "salary": 4579,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 10000,
+        "Credit": "10hr"
     },
+
     {
         "id": 4,
-        "name": "Jeffrey Ford",
-        "age": 65,
+        "name": "Basic Data Structures",
         "role":"Editor",
-        "image": "./asset/Rectangle 2-3.png",
+        "image": "./Asset/4.png",
         "salary": 4575,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 35000,
+        "Credit": "5hr"
     },
+
     {
         "id": 5,
-        "name": "Robert Downey Jr",
-        "age": 56,
+        "name": "Introduction to OOP Python",
         "role":"Actor",
-        "image": "./asset/Rectangle 2-4.png",
+        "image": "./Asset/5.png",
         "salary": 3568,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 19000,
+        "Credit": "5hr"
     },
+
     {
         "id": 6,
-        "name": "Chris Evans",
-        "age": 40,
+        "name": "Software Engineering",
         "role":"Actor",
-        "image": "./asset/Rectangle 2-5.png",
+        "image": "./Asset/6.png",
         "salary": 5678,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 23000,
+        "Credit": "2hr"
     },
+
     {
         "id": 7,
-        "name": "Chris Hemsworth",
-        "age": 37,
+        "name": "AWS, Cloud Computing",
         "role":"Actor",
-        "image": "./asset/Rectangle 2-6.png",
+        "image": "./Asset/7.png",
         "salary": 8564,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 35000,
+        "Credit": "5hr"
     },
+
     {
         "id": 8,
-        "name": "Mark Ruffalo",
-        "age": 53,
+        "name": "Database (MySQL)",
         "role":"Actor",
-        "image": "./asset/Rectangle 2-7.png",
+        "image": "./Asset/8.png",
         "salary": 4589,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 19000,
+        "Credit": "5hr"
     },
+
     {
         "id": 9,
-        "name": "Josh Brolin",
-        "age": 53,
+        "name": "Problem-Solving Part",
         "role":"Actor",
-        "image": "./asset/Rectangle 2-8.png",
+        "image": "./Asset/9.png",
         "salary": 4586,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
-    },
-    {
-        "id": 10,
-        "name": "Scarlett Johansson",
-        "age": 36,
-        "role":"Actress",
-        "image": "https://i.ibb.co/DRQWb5k/Scarlett-Johansson-Natasha-Romanoff-Avengers-Age-of.jpg",
-        "salary": 5454,
-        "country": "USA",
-        "fbUrl":"https://www.facebook.com/",
-        "twitter": "https://twitter.com"
+        "details": "it is a long estabilshed fact that a reader will be distracted by the readable content of a page when looking at it's layout",
+        "Price": 23000,
+        "Credit": "2hr"
     }
 ]
