@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "Anthony Russo",
+        "age": 51,
+        "role":"Director",
+        "image": "./asset/Rectangle 2.png",
+        "salary": 7584,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 2,
+        "name": "Stan Lee",
+        "age": 95,
+        "role":"Story Writer",
+        "image": "./asset/Rectangle 2-1.png",
+        "salary": 11544,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 3,
+        "name": "Alan Silvestri",
+        "age": 71,
+        "role": "Music Director",
+        "image": "./asset/Rectangle 2-2.png",
+        "salary": 4579,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 4,
+        "name": "Jeffrey Ford",
+        "age": 65,
+        "role":"Editor",
+        "image": "./asset/Rectangle 2-3.png",
+        "salary": 4575,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 5,
+        "name": "Robert Downey Jr",
+        "age": 56,
+        "role":"Actor",
+        "image": "./asset/Rectangle 2-4.png",
+        "salary": 3568,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 6,
+        "name": "Chris Evans",
+        "age": 40,
+        "role":"Actor",
+        "image": "./asset/Rectangle 2-5.png",
+        "salary": 5678,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 7,
+        "name": "Chris Hemsworth",
+        "age": 37,
+        "role":"Actor",
+        "image": "./asset/Rectangle 2-6.png",
+        "salary": 8564,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 8,
+        "name": "Mark Ruffalo",
+        "age": 53,
+        "role":"Actor",
+        "image": "./asset/Rectangle 2-7.png",
+        "salary": 4589,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 9,
+        "name": "Josh Brolin",
+        "age": 53,
+        "role":"Actor",
+        "image": "./asset/Rectangle 2-8.png",
+        "salary": 4586,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    },
+    {
+        "id": 10,
+        "name": "Scarlett Johansson",
+        "age": 36,
+        "role":"Actress",
+        "image": "https://i.ibb.co/DRQWb5k/Scarlett-Johansson-Natasha-Romanoff-Avengers-Age-of.jpg",
+        "salary": 5454,
+        "country": "USA",
+        "fbUrl":"https://www.facebook.com/",
+        "twitter": "https://twitter.com"
+    }
+]
