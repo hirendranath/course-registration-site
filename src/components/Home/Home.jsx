@@ -12,11 +12,9 @@ const Home = () => {
     const [totalCredit, setTotalCredit] = useState(0);
 
 
-    const [totalPrice, setTotalPrice] = useState(0);
-
 
     useEffect(() => {
-        fetch("./data.json")
+        fetch("data.json")
             .then((res) => res.json())
             .then((data) => setAllCourse(data));
     }, []);
@@ -27,8 +25,6 @@ const Home = () => {
         const isExist = selectedCourse.find((item) => item.id == course.id);
         let credit = course.credit;
         let count = course.credit;
-
-        const NewPrice = totalPrice + course.price;
 
         if (isExist) {
             return Swal.fire({
@@ -53,7 +49,6 @@ const Home = () => {
                 setTotalCredit(credit);
                 setTotalRemaining(totalremaining);
                 setSelectedCourse([...selectedCourse, course]);
-                setTotalPrice(NewPrice);
             }
         }
     };
@@ -82,7 +77,7 @@ const Home = () => {
                     </div>
 
                     <div className="cart">
-                        <Cart selectedCard={selectedCourse} totalRemaining={totalRemaining} totalCredit={totalCredit} totalPrice={totalPrice}></Cart>
+                        <Cart selectedCard={selectedCourse} totalRemaining={totalRemaining} totalCredit={totalCredit}></Cart>
                     </div>
 
                 </div>

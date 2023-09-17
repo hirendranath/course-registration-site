@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import "./Cart.css"
 
-const Cart = ({ selectedCard, totalRemaining, totalCredit, totalPrice}) => {
+const Cart = ({ selectedCard, totalRemaining, totalCredit}) => {
     return (
         <div className="Cart-container">
             <h4>Total Credit Hour Remaining : {totalRemaining}hr</h4>
@@ -19,9 +19,6 @@ const Cart = ({ selectedCard, totalRemaining, totalCredit, totalPrice}) => {
             <hr />
 
             <h4>Total Credit Hour : {totalCredit}</h4>
-            <hr />
-            <h4>Total Price : ${totalPrice}</h4>
-            <hr />
         </div>
     );
 };
