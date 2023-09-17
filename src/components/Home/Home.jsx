@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import "./Home.css"
 import Cart from '../Cart/Cart';
+import Swal from 'sweetalert2/src/sweetalert2.js'
 
 const Home = () => {
     const [allCourse, setAllCourse] = useState([]);
@@ -22,7 +23,7 @@ const Home = () => {
 
     const handleSelectorCourse = (course) => {
 
-        
+
         const isExist = selectedCourse.find((item) => item.id == course.id);
         let credit = course.credit;
         let count = course.credit;
@@ -83,7 +84,7 @@ const Home = () => {
                     <div className="cart">
                         <Cart selectedCard={selectedCourse} totalRemaining={totalRemaining} totalCredit={totalCredit} totalPrice={totalPrice}></Cart>
                     </div>
-                    
+
                 </div>
             </div>
 
